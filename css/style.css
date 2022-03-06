@@ -1,0 +1,218 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --Light:#F2F2F2;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0,100% 0,100% 100%,97% 94%,0 100%);
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --Light:#F2F2F2;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0,100% 0,98% 97%,100% 99%,0 100%);
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+
+
+@media (min-width: 576px)
+{
+    .container{
+        max-width: 540;
+        background-color: black;
+
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 720;
+        background-color: black;
+    }
+    
+}
+@media (min-width:999px) {
+    .container{
+        max-width: 960;
+        background-color:black;
+    }
+    
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1152;
+        background-color: black;
+    }
+    
+}
+
+
+header nav .left a{
+     color:var(--pure);
+     text-decoration: none;
+     margin-right: 2rem;
+     text-transform: uppercase;
+     transition:all .3s ease;
+}
+header nav .left a:hover{
+    color:var(--primary);
+
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero .left img{
+    width: 400px;
+}
+.hero .right{
+    color:var(--pure);
+}
+.hero .right h1{
+    font-size:1.6rem;
+    margin-bottom:0.5rem;
+
+}
+.hero .right h1 span{
+    color:var(--primary);
+}
+.btn-secondary:hover{
+    background:var(--primary);
+    color:var(--secondary);
+}
+.about .h1 span{
+    color:var(--primary);
+}
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-img1{
+    height: 240px;
+}
+section.about .about-me-img2{
+    height:240px;
+}
+section.about .about-me-img3{
+    height:240px;
+}
+section.about .about-me-img4
+{
+    height:240px;
+
+}
+section.about .about-me-img5
+{
+    height: 240px;
+}
+section.about  h1 span{
+    color:var(--primary);
+}
+section.about h1 span{
+    color:var(--primary);
+}
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2rem;
+    margin-bottom:2rem;
+}
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+section.contact .input-wrap-2  input{
+    margin-bottom:2rem;
+}
+
+section.contact .input{
+    padding: 0.5rem;
+
+}
+section.contact .input-wrap-2 textarea{
+    padding: 0.5rem;;
+}
+
+@media (max-width:576px)
+{
+    .hero{
+        flex-direction: column;
+
+    }
+    .hero .left img
+    {
+        width: 280px;
+    }
+    .hero .right h1{
+        font-size:1.2rem;
+        margin-bottom:0.5rem;
+    }
+    header{  
+        background: var(--dark);
+        clip-path: polygon(0 0,100% 0,100% 100%,97% 97%,0 100%);
+    }
+
+     section.about .about-me-img1{
+         height: 202px;
+     }
+     section.about .about-me-img2{
+         height: 202px;
+     }
+     section.about .about-me-img3{
+
+        height: 202px;
+     }
+     section.about .about-me-img4{
+         height: 202px;
+     }
+     section.about .about-me-img5{
+         height: 202px;
+     }
+
+
+
+
+
+            
+}
